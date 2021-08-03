@@ -146,8 +146,9 @@ footer {
 .type {
   padding: 0 30px;
 }
-#sort, #type{
-  width:55%;
+#sort,
+#type {
+  width: 55%;
 }
 
 #search {
@@ -211,7 +212,6 @@ main {
 .div-tipo-1 {
   width: fit-content;
   text-align: center;
-  /*background-color: #ffafcc;*/
   padding: 2px 5px;
   margin-right: 20px;
   border-radius: 5px 5px;
@@ -228,7 +228,7 @@ main {
 p {
   margin: 0px;
 }
-a#pull{
+#pull {
   display: none;
 }
 @media only screen and (max-device-width: 900px) {
@@ -279,7 +279,6 @@ a#pull{
     margin-top: 5px;
   }
 
-  
   #search::placeholder {
     font-size: 20px;
   }
@@ -306,15 +305,19 @@ a#pull{
     color: #a7a3a3;
   }
   .filter-title {
-    font-size:22px;
+    font-size: 22px;
   }
-  #sort-label, #type-label, #sort, #type{
-    font-size:20px;
+  #sort-label,
+  #type-label,
+  #sort,
+  #type {
+    font-size: 20px;
   }
-  #sort, #type{
-    width:60%;
+  #sort,
+  #type {
+    width: 60%;
   }
-  .stats{
+  .stats {
     font-size: 22px;
   }
 }
